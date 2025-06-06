@@ -1,0 +1,152 @@
+/* layout.css */
+
+:root {
+    /* Viewport Heigt caclculated by JS for mobile Devices */
+    --vh: 100vh;
+
+                          
+    --fullHeightOption: 1  fullHeight always auto (Footer at bottom of Viewport) 
+        js sets:                        
+        --fullHeightFlex:0;
+        --fullHeight: auto;
+
+    --fullHeightOption: 2  fullHeight always Fullheight  (Footer at the End of Content)
+       js sets
+       --fullHeightFlex: 1;
+       --fullHeight: var(--vh);
+       
+    --fullHeightOption: 3  Mobile: Fullheight / Website: Auto
+    
+    --fullHeightOption: 3;
+    --fullHeightFlex: 1;
+    --fullHeight: var(--vh);
+
+    /* border Radius mainCont Elements*/
+    --bRadMainCont: 10px;
+
+    --paddingBody: 0px;
+    --bgBody: rgba(133, 11, 11, 0.493);
+
+    --bgHeader: rgb(226, 233, 238);
+    --coHeader: black;
+
+    --bghMenue: rgb(226, 233, 238);
+    --cohMenue: blue;
+
+    --bgFooter: rgb(226, 233, 238);
+    --coFooter: black;
+
+    --bgMainCont: rgba(133, 11, 11, 0.116);
+    --gapMainCont: 10px;
+
+    --paddingMainCont: 10px;
+
+    --paddingContent: 10px;
+    --bgContent: rgb(216, 231, 231);
+
+    --paddingCol: 5px; 
+
+    --maxWidth: 800px;
+    --minWidth: 250px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: var(--minHeight);
+    margin: 0;
+    min-width: var(--minWidth);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: var(--fullHeight);
+    padding: var(--paddingBody);
+    background-color: var(--bgBody);
+}
+
+#mainCont {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+    width: 100%;
+    overflow-x: hidden;
+    padding: var(--paddingMainCont);
+    border-radius: var(--bRadMainCont);
+    background-color: var(--bgMainCont);
+    gap: var(--gapMainCont);
+}
+
+#header, #teaser, #hMenue, #footer,
+#content, #col1, #col2, #col3
+{
+    display: flex;
+    position:relative;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#header,
+#teaser,
+#hMenue,
+#footer {
+    height: auto;
+    align-items: center;
+    overflow: hidden;
+    border-radius: var(--bRadMainCont);
+}
+
+#header {
+    background-color: var(--bgHeader);
+    color:var(--coHeader);
+}
+
+#teaser {
+    background-color:var(--bgHeader);
+    color:var(--coHeader);
+}
+
+#hMenue {
+    background-color: var(--bghMenue);
+    color:var(--cohMenue);
+}
+
+#hMenue a:link{
+    color:var(--cohMenue);
+}
+
+#footer {
+    background-color: var(--bgFooter);
+    color:var(--coFooter);
+}
+
+
+#contentWrapper {
+    flex: var(--fullHeightFlex);
+    display: flex;
+}
+
+#content {
+  padding:var(--paddingContent);
+  border-radius: var(--bRadMainCont);
+  width:100%;
+  align-content:flex-start;
+  background-color: var(--bgContent);
+  color:var(--coContent);
+}
+
+#col1,
+#col2,
+#col3 {
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 33.333%;
+    padding: var(--paddingCol);
+}

@@ -1,0 +1,7 @@
+Autor: Walter Jaich
+V1.4 30. Mai 2025
+*****************************************************
+
+responsives 3 Spaltenlayout auf Basis Flexbox
+für Webseiten, mobile Webseiten und PWA's
+*****************************************************

@@ -1,0 +1,62 @@
+Images
+==========================
+https://www.pexels.com/de-de/lizenz/
+Downloaded : 2025-03-31
+
+Logos
+==========
+https://fonts.google.com/icons
+Downloaded : 2025-03-31
+
+https://developers.google.com/fonts/faq?hl=de : 
+Sind für diese Schriftarten Kosten zu entrichten?
+Nein, alle Google Fonts sind Open Source und kostenlos
+
+
+
+logoReise.png
+======================
+2025-05-10
+https://graphicsurf.com/license/
+
+All exclusive free resources available for download on DesignZone (GraphicSurf.com) are royalty free for use in both personal and commercial projects.
+
+What’s allowed
+
+You are allowed to use the free items for any number of personal and commercial projects;
+You may modify the free item according to your requirements and include them into portfolio, such as websites, applications or other materials intended for promotion;
+No attribution or link back to this site is required, however any credit will be much appreciated.
+What’s not allowed
+
+You are not allowed to redistribute, resell, lease, license, sublicense or offer files downloaded from DesignZone (GraphicSurf.com) to any third party “as is”;
+If you wish to promote our resources on your website, you must link back to the resource page where users can find the download and not directly to the download file.
+
+
+
+Flags (svg)
+=======================================
+https://flagicons.lipis.dev/ 
+https://github.com/lipis/flag-icons
+
+The MIT License (MIT)
+
+Copyright (c) 2013 Panayiotis Lipiridis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+

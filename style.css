@@ -1,0 +1,152 @@
+/* style.css */
+/* Adaptions and extension */
+/***************************/
+
+@font-face {
+  font-family: Mynerve-Regular;
+  src: url(/font/Mynerve-Regular.ttf);
+}
+
+:root{
+    /* Layout general */
+    --maxWidth:800px;
+    
+    /* --fullHeightOption: 1 -> height always "AUTO" */
+    /* --fullHeightOption: 2 -> height always "Viewport Height" */
+    /* --fullHeightOption: 3 -> mobile: "Viewport Height" Website: "AUTO" */
+    --fullHeightOption: 3;
+
+    /* body */
+    --bgBody: rgba(11, 133, 56, 0.493);
+
+    /* mainCont */
+    --bgMainCont: rgb(175, 207, 175);
+    --paddingMainCont: 5px;
+    --gapMainCont: 5px;
+    --bRadMainCont: 5px;
+
+    /* Header */
+    --bgHeader: rgb(226, 233, 238);
+    --coHeader: black;
+
+    /* Horizontal Menu */
+    --bghMenue: rgb(226, 233, 238);
+    --cohMenue: blue;
+
+    /* Footer */
+    --bgFooter: rgb(226, 233, 238);
+    --coFooter: black;
+
+    /* content */
+    --paddingContent: 10px;
+    --bgContent: rgb(156, 207, 188);
+
+    /* #col1, #col2, #col3 */
+    --paddingCol: 5px; 
+}
+
+
+#col1 {background-color: rgb(198, 236, 181);}
+#col2 {background-color: rgb(181, 232, 236);}
+#col3 {background-color: rgb(92, 101, 230);}
+
+
+
+/* Header */
+#header {
+  padding:10px;
+}
+
+#header div {
+  padding-left: 20px;
+  font-family:Mynerve-Regular;
+  font-size: 34px;
+}
+
+#header img {
+  width:50px;
+}
+
+#header>img:nth-child(3) {
+  width:40px;
+  position: absolute;
+  right: 10px;
+}
+
+/* Teaser */
+#teaser img {
+  width:100%;
+}
+
+/* hMenue */
+#hMenue {
+  display: flex;
+}
+
+#hMenue nav {
+  display:flex;
+  justify-content: space-evenly;
+  width:100%;
+  padding:10px;
+}
+
+#hMenue nav div { 
+  width:60px;
+}
+
+/* footer */
+#footer {
+  justify-content: space-around;
+  padding:10px;
+  font-size:20px;
+}
+
+#footer a{
+  font-size:24px;
+}
+
+/* content */
+#col1, #col2, #col3 {
+  width:33.333%;
+}
+#col1, #col2 {
+    width: 50%;
+}
+
+#col3 {
+    width: 100%;
+}
+
+#col3 img{
+  width:50%;
+  aspect-ratio: 3/2;
+}
+
+@media only screen and (max-width: 500px) {
+    /* Menü-Icon einblenden */
+    #header>img:nth-child(3) {
+        display: flex;
+    }
+
+    /* Bilder anpassen */
+    #col3 img {
+        width: 100%;
+        aspect-ratio: 2.5;
+        padding: 5px;
+    }
+
+    /* Container ausblenden */
+    #col1, #col2, #hMenue, #teaser {
+        display: none;
+    }
+}
+
+
+
+#header {
+  display: flex;
+}
+
+
+
+
